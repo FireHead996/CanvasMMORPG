@@ -5,9 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MMORPG</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body>
-    <canvas id="game" width="500" height="500"></canvas>
+    <div class="fixed text-sm text-white select-none ml-2 mt-1">
+        <span>FPS: </span>
+        <span id="fpsCounter">0</span>
+    </div>
+
+    <canvas></canvas>
 
     <script src="script.js"></script>
 </body>
